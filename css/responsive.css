@@ -1,0 +1,152 @@
+/*
+GRID based on 4x 396px, 15px spacing (1629px in total) + 146px sides in margin.
+*/
+
+/* large screen sizes */
+@media
+only screen and (min-width : 1440px)  {
+
+	/* max width settings */
+	.container.width_max { width: 1440px; }
+	.container { width: 100%; }
+
+	/* header and slider */
+	#header_image { height: 458px; }
+
+	/* content */
+
+	/* show / hide */
+	.no_mobile { display: block; visibility: visible; }
+	.mobile_only { display: none; visibility: hidden; }
+}
+
+/* regular screen sizes*/
+@media
+only screen and (min-width : 1280px) and (max-width : 1439px)   {
+
+	/* width settings */
+	.container.width_max  { width: 1280px; }
+	.container  { }
+
+	/* header and slider */
+	#header_image { height: 458px; }
+
+	/* content */
+	.col-11, .col-12 { width: 1260px; }
+
+	/* show / hide */
+	.no_mobile { display: block; visibility: visible; }
+	.mobile_only { display: none; visibility: hidden; }
+}
+
+
+/* small screen sizes */
+@media
+only screen and (min-width : 1024px) and (max-width : 1279px)   {
+
+
+	/* width settings */
+  .container.width_max { width: 1008px; }
+	.container { width: 840px; }
+
+	/* main font settings */
+	html, body { font-size: 16px; line-height: 24px; }
+	h1 { 		font-size: 60px; line-height: 60px; }
+
+	/* header and slider */
+	#header_image { height: 666px; }
+
+
+	#header { height: 60px; }
+	#wrap { padding: 0 0 15px 0;  }
+
+	/* content */
+	.col-9, .col-10, .col-11, .col-12 { width: 840px; }
+
+
+	/* show / hide */
+	.no_mobile { display: none; visibility: hidden; }
+	.mobile_only { display: block; visibility: visible; }
+
+}
+
+/* Tablet portrait size and up */
+@media
+only screen and (min-width : 768px) and (max-width : 1023px)   {
+
+	/* width settings */
+	.container.width_max { width: 100%; }
+	.container { width: 672px; }
+
+	/* font settings */
+	html, body { font-size: 18px; line-height: 1.5; }
+	h1, h1.header_title { font-size: 60px; padding: 0 0 16px 0; }
+
+	/* header and slider */
+	#header_image { height: 400px; }
+	.carousel, .carousel_image img { height: 300px; }
+
+	/* navigation */
+
+	/* content */
+
+
+	/* column adjustments */
+	.col-tablet-full { width: 100%; }
+	.col-tablet-half { width: 50%;  }
+	.col-tablet-third { width: 33.3333%; }
+
+	/* footer override */
+
+	/* show / hide */
+	.no_mobile { display: none; visibility: hidden; }
+	.mobile_only { display: block; visibility: visible; }
+
+}
+
+/* Mobile sizes */
+@media only screen and (min-device-width : 1px) and (max-device-width : 767px),
+only screen and (min-width : 1px) and (max-width : 767px) {
+
+	/* width settings */
+	.container.width_max { width: 100%; }
+	.container { width: 100%; padding: 0 30px 0 30px; }
+
+	/* font settings */
+	html, body { font-size: 18px; line-height: 1.5;}
+	h1, h1.header_title { font-size: 50px; line-height: 50px; max-width: 100%; padding: 0 0 16px 0; margin-left: 0; }
+
+	/* header and slider */
+	#header_image { height: 666px; }
+	#logo {	 }
+	#header .container {padding: 0;}
+
+	/* content */
+	.col_content  { padding: 20px; }
+	.col-7, .col-8, .col-9, .col-10, .col-11, .col-12 { width: 100%; }
+	.col-6 { width: 100%; }
+	.col-5 { width: 100%; }
+	.col-4 { width: 100%; }
+	.col-3 { width: 50%; }
+	.col-2 { width: 50%; }
+	.col-1 { width: 50%; }
+
+	[class*="col-"] {
+	  float: left;
+	  padding-right: 0;
+
+	}
+
+	/* column adjustments */
+	.col-1 { width: 50%; }
+	.col-2, .col-3, .col-4, .col-5, .col-6, .col-full-mobile, .col-quarter  { width: 100%; }
+
+	/* show / hide */
+	.no_mobile { display: none; visibility: hidden; }
+	.mobile_only { display: block; visibility: visible; }
+
+	.text_left { text-align: center;}
+	.text_center {}
+	.text_right {text-align: center;}
+
+}

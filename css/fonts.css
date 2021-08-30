@@ -1,0 +1,22 @@
+
+@font-face {
+    font-family: 'build-regular';
+    src: url('fonts/Build-regular.eot');
+    src: url('fonts/Build-regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Build-regular.woff2') format('woff2'),
+        url('fonts/Build-regular.woff') format('woff'),
+        url('fonts/Build-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'build-regular-italic';
+    src: url('fonts/Build-regularitalic.eot');
+    src: url('fonts/Build-regularitalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Build-regularitalic.woff2') format('woff2'),
+        url('fonts/Build-regularitalic.woff') format('woff'),
+        url('fonts/Build-regularitalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
