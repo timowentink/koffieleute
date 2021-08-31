@@ -478,6 +478,17 @@ img.alignleft {
 	font-size: 0.825rem;
 }
 
+.contactinfo {
+	text-align: left;
+}
+.visitinfo {
+	text-align: center;
+}
+
+.socialinfo {
+	text-align: right;
+}
+
 /*flex objects */
 
 .flex_container {
