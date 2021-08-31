@@ -22,7 +22,7 @@ only screen and (min-width : 1440px)  {
 
 /* regular screen sizes*/
 @media
-only screen and (min-width : 1280px) and (max-width : 1439px)   {
+only screen and (min-width : 1024px) and (max-width : 1439px)   {
 
 	/* width settings */
 	.container.width_max  { }
@@ -43,44 +43,7 @@ only screen and (min-width : 1280px) and (max-width : 1439px)   {
 }
 
 
-/* small screen sizes */
-@media
-only screen and (min-width : 1024px) and (max-width : 1279px)   {
 
-
-	/* width settings */
-  .container.width_max { }
-	.container { width: 100%; padding-left: 30px; padding-right: 30px;}
-
-	/* main font settings */
-	html, body { font-size: 26px; line-height: 1.5; }
-	h1 { 		font-size: 128px; line-height: 1; }
-
-	/* header and slider */
-	#header_image { height: 666px; }
-
-
-	#header { height:480px; }
-	#wrap { padding: 0 0 15px 0;  }
-
-	/* content */
-	.col-9, .col-10, .col-11, .col-12 { width: 100% }
-	[class*="col-"] {
-	  float: left;
-	  padding-right: 32px;
-	}
-	.col-12 { padding-right: 0px;}
-
-
-	/* show / hide */
-	.no_mobile { display: none; visibility: hidden; }
-	.mobile_only { display: block; visibility: visible; }
-
-	/*elements*/
-	.hitem { width: auto; padding:8px 0 4px; margin-right: 80px;}
-	.regularinfo { padding: 3rem 0 3rem 0}
-
-}
 
 /* Tablet portrait size and up */
 @media
