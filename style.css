@@ -825,7 +825,7 @@ img.alignleft {
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	height: 40px;
+	height: 1.25rem;
 }
 
 .space {
@@ -834,7 +834,7 @@ img.alignleft {
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	height: 60px;
+	height: 1.875rem;
 }
 
 .space_large {
@@ -843,7 +843,7 @@ img.alignleft {
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	height: 80px;
+	height: 2.5rem;
 	border: 0;
 }
 

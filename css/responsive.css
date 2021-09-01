@@ -137,11 +137,29 @@ only screen and (min-width : 1px) and (max-width : 767px) {
 		flex-wrap: wrap;
 		justify-content: flex-start;
 		width: 100%;
-
 	}
+
 	.tabs label {padding-right: 32px; padding-left: 32px; border-bottom: 1px solid #221e20; margin-top: 16px;}
 	.tabs input[type="radio"]:checked + label { border: 1px solid #221E20;}
 	.tab { border:0;}
+
+	#playlist_icon{
+		position: fixed;
+		top: 20px;
+		right: 20px;
+		height: 96px;
+		width: 96px;
+	}
+
+	#playlist_icon a {
+		animation-play-state: running;
+	}
+
+	.nav_acc input:checked ~  label h1.nobreak { white-space: normal;}
+	.external_link { padding-bottom: 1rem; }
+
+	.accordion label::after {	transform: scale(.825);}
+
 
 	/* show / hide */
 	.no_mobile { display: none; visibility: hidden; }
@@ -153,6 +171,20 @@ only screen and (min-width : 1px) and (max-width : 767px) {
 
 	/* footer */
 	.contactinfo, .visitinfo, .socialinfo { text-align: left; border-top: 2px solid #221E20; padding-top: 0.25rem;}
+
+		/*spacing*/
+
+		.padding_top { padding-top: 20px; }
+		.padding_top_m { padding-top: 40px; }
+		.padding_top_l { padding-top: 60px; }
+		.padding_bottom { padding-bottom: 20px; }
+		.padding_bottom_m { padding-bottom: 40px; }
+		.padding_bottom_l { padding-bottom: 60px; }
+
+		.space {height:0.5rem;}
+		.space_small { height:1.25rem}
+		.space_large { height:1.75rem}
+		.space_xlarge {height:2.5rem;}
 
 
 }
