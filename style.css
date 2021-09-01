@@ -889,9 +889,10 @@ img.alignleft {
 /* (C) ITEMS - INTO A LONG HORIZONTAL ROW */
 .hitem {
   flex-shrink: 0;
-  width: 100%;
+  width: auto;
   box-sizing: border-box;
 	padding: 10px 0 4px 0;
+	margin-right: 4rem;
   text-align: left;
 	font-size: 0.875rem;
 	text-transform: uppercase;
@@ -905,3 +906,5 @@ img.alignleft {
 }
 .hmove { animation: tickerh linear 45s infinite; }
 .hmove:hover { animation-play-state: paused; }
+.hmove a{ color:#221E20; text-decoration:none; }
+.hmove a:hover{ color:#221E20; text-decoration:underline;}
