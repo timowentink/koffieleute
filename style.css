@@ -186,6 +186,10 @@ blockquote {
   background-size: cover;
 }
 
+#logo a:hover {
+	text-decoration: none;
+}
+
 #header_image {
 	position: relative;
 	top: 0;
@@ -222,6 +226,93 @@ blockquote {
 	height: auto;
 	min-height: 100%;
 }
+
+#playlist_icon{
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	height: 128px;
+	width: 126px;
+
+}
+
+#playlist_icon a {
+	float: left;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	background-image: url(images/playlist_icon.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	mix-blend-mode: difference;
+	-webkit-animation-name: spin;
+  -webkit-animation-duration: 4000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 4000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 4000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+	animation-play-state: paused;
+}
+
+@-ms-keyframes spin {
+  from {
+    -ms-transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+#playlist_icon a:hover {
+	text-decoration: none;
+	animation-play-state: running;
+}
+
+
+
 
 /* MAIN columns */
 .col_wrap {
@@ -478,6 +569,17 @@ img.alignleft {
 	font-size: 0.825rem;
 }
 
+.contactinfo {
+	text-align: left;
+}
+.visitinfo {
+	text-align: center;
+}
+
+.socialinfo {
+	text-align: right;
+}
+
 /*flex objects */
 
 .flex_container {
@@ -512,7 +614,8 @@ img.alignleft {
 .image_flexbox {
 	display: flex;
 	overflow-x: auto;
-	width: 100% ;
+
+
 }
 
 .image_flexbox img{
@@ -722,7 +825,7 @@ img.alignleft {
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	height: 40px;
+	height: 1.25rem;
 }
 
 .space {
@@ -731,7 +834,7 @@ img.alignleft {
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	height: 60px;
+	height: 1.875rem;
 }
 
 .space_large {
@@ -740,7 +843,7 @@ img.alignleft {
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	height: 80px;
+	height: 2.5rem;
 	border: 0;
 }
 
@@ -770,6 +873,9 @@ img.alignleft {
 }
 
 
+.nobreak {
+	 white-space: nowrap;
+}
 
 /* (A) FIXED WRAPPER */
 .hwrap {
