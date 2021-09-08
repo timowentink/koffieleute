@@ -76,6 +76,7 @@ h4, h5, h6 {
 
 p.smaller {
 	font-size: 0.75rem;
+	padding-right: 2rem;
 }
 
 .introduction {
@@ -569,6 +570,15 @@ img.alignleft {
 	font-size: 0.825rem;
 }
 
+.footer ul li a{
+	color: #221E20;
+	text-decoration: none;
+}
+.footer ul li a:hover {
+	color: #221E20;
+	text-decoration: underline;
+}
+
 .contactinfo {
 	text-align: left;
 }
@@ -765,6 +775,11 @@ img.alignleft {
 .tab a:hover {
 	color: #221E20;
 	text-decoration: underline;
+}
+
+.menu_description {
+	border-top: 1px solid #221E20;
+	margin-top: 4rem;
 }
 
 /* font and bg colors and images */
