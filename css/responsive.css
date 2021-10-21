@@ -11,7 +11,9 @@ only screen and (min-width : 1440px)  {
 	.container { width: 100%; }
 
 	/* header and slider */
-	#header_image { height: 458px; }
+	#header_image { height: 60vh; }
+	#hero_container {height: 640px;}
+	#hero_image {background-size: 580px;background-position: top 96px center}
 
 	/* content */
 
@@ -23,13 +25,14 @@ only screen and (min-width : 1440px)  {
 /* regular screen sizes*/
 @media
 only screen and (min-width : 1024px) and (max-width : 1439px)   {
-
+	html, body { font-size: 28px}
 	/* width settings */
 	.container.width_max  { }
 	.container  { }
 
 	/* header and slider */
-	#header_image { height: 458px; }
+	#header_image { height: 600px; }
+	#hero_image {background-size: 500px;}
 
 	/* content */
 	.col-11, .col-12 { width: 100% }
@@ -58,6 +61,7 @@ only screen and (min-width : 768px) and (max-width : 1023px)    {
 	h1, h1.header_title { font-size: 80px; line-height: 1; padding: 0 0 16px 0; }
 
 	/* header and slider */
+	#hero_image {background-size: 480px;}
 	#header_image { height: 400px; }
 	#header {height: 480px;}
 	.carousel, .carousel_image img { height: 300px; }
@@ -106,6 +110,7 @@ only screen and (min-width : 1px) and (max-width : 767px) {
 	#header_image { height: 384px; width: 100%; background-size:175%; background-position: top 80px center ; }
 	#logo {	 	width: 178px; height: 40px; position: absolute; right: calc(50% - 89px);}
 	#header .container {padding: 0;}
+		#hero_image {background-size: 300px;}
 
 	/* content */
 	.col_content  { padding: 20px; }
