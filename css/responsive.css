@@ -110,7 +110,8 @@ only screen and (min-width : 1px) and (max-width : 767px) {
 	#header_image { height: 384px; width: 100%; background-size:175%; background-position: top 80px center ; }
 	#logo {	 	width: 178px; height: 40px; position: absolute; right: calc(50% - 89px);}
 	#header .container {padding: 0;}
-		#hero_image {background-size: 300px;}
+	#hero_container {height: 80vh;}
+	#hero_image {background-size: 80%;}
 
 	/* content */
 	.col_content  { padding: 20px; }
