@@ -11,7 +11,9 @@ only screen and (min-width : 1440px)  {
 	.container { width: 100%; }
 
 	/* header and slider */
-	#header_image { height: 458px; }
+	#header_image { height: 60vh; }
+	#hero_container {height: 640px;}
+	#hero_image {background-size: 500px;background-position: top 128px center}
 
 	/* content */
 
@@ -23,13 +25,13 @@ only screen and (min-width : 1440px)  {
 /* regular screen sizes*/
 @media
 only screen and (min-width : 1024px) and (max-width : 1439px)   {
-
+	html, body { font-size: 28px}
 	/* width settings */
 	.container.width_max  { }
 	.container  { }
 
 	/* header and slider */
-	#header_image { height: 458px; }
+	#header_image { height: 60vh; }
 
 	/* content */
 	.col-11, .col-12 { width: 100% }

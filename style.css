@@ -147,8 +147,32 @@ blockquote {
 	overflow-x: hidden;
 }
 
+#hero_container {
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	vertical-align: middle;
+	width: 100%;
+	height: 512px;
+	background-color:#FFC74E;
+}
+
+#hero_image {
+	display: flex;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-image: url(images/header-image2.png);
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: top 72px center ;
+	background-size: 480px;
+}
+
 #header {
 	position: relative;
+	height: 50vh;
 	width: 100%;
 	top: 0;
 	right: 0;
@@ -200,14 +224,13 @@ blockquote {
 	-ms-transform: translate(-50%, 0);
 	-o-transform: translate(-50%, 0);
 	transform: translate(-50%, 0);
-	max-width: 1520px;
 	padding: 0;
 	margin: 0;
-	background-image: url(images/header-image.png);
+	background-image: url(images/header-image2.png);
 	background-color: transparent;
 	background-repeat: no-repeat;
 	background-position: top 72px center ;
-	background-size:940px;
+	background-size:50vh;
 }
 
 
@@ -313,6 +336,20 @@ blockquote {
 }
 
 
+.floating {
+    animation-name: floating;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 0;
+    margin-top: -5px;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 10px); }
+    100%   { transform: translate(0, -0px); }
+}
 
 
 /* MAIN columns */
@@ -372,6 +409,7 @@ blockquote {
 }
 
 /* Sections */
+
 section.page_section {
 	width: 100%;
 	margin: 0;
@@ -798,8 +836,8 @@ img.alignleft {
 
 
 /* borders */
-.border_top { border-top: 2px solid #221E20; }
-.border_bottom { border-bottom: 2px solid #221E20; }
+.border_top { border-top: 3px solid #221E20; }
+.border_bottom { border-bottom: 3px solid #221E20; }
 
 /* widths */
 .width_max { width: 100%; max-width: 2000px; overflow: hidden; }
@@ -895,7 +933,7 @@ img.alignleft {
 /* (A) FIXED WRAPPER */
 .hwrap {
   overflow: hidden; /* HIDE SCROLL BAR */
-  background: #F3D062;
+  background: #FFD271;
 }
 
 /* (B) MOVING TICKER WRAPPER */
