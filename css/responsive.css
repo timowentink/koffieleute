@@ -61,7 +61,7 @@ only screen and (min-width : 768px) and (max-width : 1023px)    {
 	h1, h1.header_title { font-size: 80px; line-height: 1; padding: 0 0 16px 0; }
 
 	/* header and slider */
-	#hero_image {background-size: 481px;}
+	#hero_image {background-size: 480px;}
 	#header_image { height: 400px; }
 	#header {height: 480px;}
 	.carousel, .carousel_image img { height: 300px; }
@@ -110,6 +110,7 @@ only screen and (min-width : 1px) and (max-width : 767px) {
 	#header_image { height: 384px; width: 100%; background-size:175%; background-position: top 80px center ; }
 	#logo {	 	width: 178px; height: 40px; position: absolute; right: calc(50% - 89px);}
 	#header .container {padding: 0;}
+		#hero_image {background-size: 300px;}
 
 	/* content */
 	.col_content  { padding: 20px; }
