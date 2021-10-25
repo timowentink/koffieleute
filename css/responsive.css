@@ -109,7 +109,6 @@ only screen and (min-width : 1px) and (max-width : 767px) {
 	/* header and slider */
 	#header_image { height: 384px; width: 100%; background-size:175%; background-position: top 80px center ; }
 	#logo {	 	width: 178px; height: 40px; position: absolute; right: calc(50% - 89px);}
-	.container {padding: 0;}
 	#hero_container {height: 75vh;}
 	#hero_image {background-size: 90%;background-position: 50% 50%}
 
